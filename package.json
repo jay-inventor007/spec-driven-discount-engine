@@ -1,0 +1,13 @@
+{
+  "name": "engineering-task-5-pseudocoding",
+  "version": "1.0.0",
+  "description": "Task 5: Pseudocoding - Comprehensive Analysis, Implementation, and AI Verification",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test:part-b && npm run test:part-c",
+    "test:part-b": "node part-b/implementation/run-b-traces.js",
+    "test:part-c": "node part-c/comparison-test/compare-implementations.js"
+  },
+  "author": "Jesse",
+  "license": "MIT"
+}
